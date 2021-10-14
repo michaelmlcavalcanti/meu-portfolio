@@ -7,9 +7,9 @@ app.get('/portfolio',
         (req, res) => 
         {
         const data = [
-        {id: 1, name: "Meu primeiro projeto", createdAt: "13-10-2021"},
-        {id: 2, name: "Meu segundo projeto", createdAt: "13-10-2021"},
-        {id: 3, name: "Meu terceiro projeto", createdAt: "13-10-2021"}
+        {id: 1, nome: "Meu primeiro projeto", Criado: "13-10-2021"},
+        {id: 2, nome: "Meu segundo projeto", Criado: "13-10-2021"},
+        {id: 3, nome: "Meus outros projetos", Criado: "13-10-2021"}
         ];
         res.send({sucess: true, data: data});
     }
