@@ -9,8 +9,7 @@ router.get('/', async (req, res) => {
     }catch(err){
         res.json({success: false, message: err})
     }
-    
-})
+});
 
 router.post('/', async (req, res) => {
     const portfolio = new Portfolio(
