@@ -1,5 +1,7 @@
 const router = require('express').Router();
 
+require('../db/mongoConnection.js')
+
 const portfolio = require('./portfolio');
 
 router.get('/', (req, res) => {
