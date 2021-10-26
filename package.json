@@ -5,10 +5,9 @@
   "main": "server.js",
   "scripts": {
     "backend": "nodemon server.js",
-    "frontend": "npm start --prefix frontend",
+    "frontend": "cd frontend && npm start",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "start": "node server.js",
-    "heroku-postbuild": "npm install --prefix frontend && npm run-script build --prefix frontend"
+    "start": "node server.js"
   },
   "keywords": [
     "MERN",
