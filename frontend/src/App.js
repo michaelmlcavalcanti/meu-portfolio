@@ -4,7 +4,7 @@ import React from 'react'
 import GlobalStyle from './components/GlobalStyle';
 
 //Roteamento
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 //Componentes
 import AboutUs from './pages/AboutUs';

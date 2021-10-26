@@ -34,13 +34,6 @@ const Network = styled.div`
     padding: 10px 50px;
 `;
 
-
-const ContactStyled = styled.div`
-    padding: 10px 10px;
-    color: #353535;
-    min-height: 90vh;
-`;
-
 const Social = styled.a`
     display: flex;
     min-height: 10vh;

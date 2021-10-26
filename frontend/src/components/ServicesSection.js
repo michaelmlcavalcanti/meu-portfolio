@@ -5,7 +5,7 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faLaptopCode, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import { About, Description, Imagem} from '../styles'
+import { About, Description } from '../styles'
 
 const ServicesSection = () => {
     return (

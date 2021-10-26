@@ -5,11 +5,6 @@ import Styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 const Nav = function (){
-    const menuOptions = {
-        about: '<About Me/>',
-        portfolio: '<Porfolio />',
-        contact: '<Contact Me/'
-    }
     return (
     <StyledNav>
         <ul>
