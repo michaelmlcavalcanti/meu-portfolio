@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { About, Description } from '../styles'
 
-const ServicesSection = () => {
+const ServicesSection = function () {
     return (
         <Services>
             <ServiceDescription>

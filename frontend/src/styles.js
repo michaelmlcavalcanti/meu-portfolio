@@ -30,5 +30,4 @@ export const Imagem = styled.div`
         height: 75%;
         object-fit: cover;
     }
-
 `;

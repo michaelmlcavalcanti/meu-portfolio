@@ -3,7 +3,7 @@ import React from "react";
 import { About, Description } from '../styles'
 
 
-const AboutSection = () => {
+const AboutSection = function() {
     return(
         <About>
             <Description>

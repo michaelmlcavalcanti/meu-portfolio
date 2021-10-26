@@ -1,20 +1,20 @@
-const express = require('express');
+const express = require('express')
 
-const api = require('./backend/routes');
+const api = require('./backend/routes')
 
-require('dotenv').config();
+require('dotenv').config()
 
-const app = express();
+const app = express()
 
-app.use(express.json());
-app.use(express.urlencoded({extended: true}));
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
 
-app.use('/api', api); 
+app.use('/api', api)
 
 if (process.env.NODE_ENV === 'production'){
     //Express vai entregar os assets de produção
     //Como por exemplo: main.js ou o main.css
-    api.use(express.static('frontend/build'));
+    api.use(express.static('frontend/build'))
 
     //Express vai entregar o index.html, se não reconhecer a rota
     const path = require('path')
@@ -24,5 +24,5 @@ if (process.env.NODE_ENV === 'production'){
     })
 }
 
-const PORT = process.env.PORT;
-app.listen(PORT);
+const PORT = process.env.PORT
+app.listen(PORT)

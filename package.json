@@ -8,7 +8,7 @@
     "frontend": "npm start --prefix frontend",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
     "start": "node server.js",
-    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "npm install --prefix frontend && npm npm run-script build --prefix frontend"
   },
   "keywords": [
     "MERN",
