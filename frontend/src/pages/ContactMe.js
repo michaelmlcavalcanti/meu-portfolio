@@ -44,6 +44,7 @@ const ContactStyled = styled.div`
 const Social = styled.a`
     display: flex;
     min-height: 10vh;
+    width: 25vw;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -51,7 +52,7 @@ const Social = styled.a`
     padding-left: 100px;
     text-decoration: none;
     &:hover{
-        background: yellow;
+        background: green;
         cursor: pointer;
     }
 `
