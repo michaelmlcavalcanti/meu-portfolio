@@ -1,17 +1,26 @@
-const express = require('express');
+const express = require('express')
 
-const api = require('./backend/routes');
+const api = require('./backend/routes')
 
-const app = express();
+require('dotenv').config()
 
-app.use(express.json());
-app.use(express.urlencoded({extended: true}));
+const app = express()
 
-require('dotenv').config();
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
 
-app.get('/', (req, res) => {res.send({'sucess': true})});
+app.use('/api', api)
 
-app.use('/api', api); 
+if(process.env.NODE_ENV == 'production'){
+
+    app.use(express.static('frontend/build'))
+
+    const path = require('path')
+    
+    app.get('*', (req, res) => {
+        res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
+    })
+}
 
 const PORT = process.env.PORT;
 app.listen(PORT);
