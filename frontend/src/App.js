@@ -8,8 +8,10 @@ import Menu from './Componentes/Componente_Menu';
 import PaginaCurriculo from './Paginas/Pagina_Curriculo';
 import PaginaContato from './Paginas/Pagina_Contato';
 import PaginaInicial from './Paginas/Pagina_Inicial';
+import PaginaPortfolio from './Paginas/Pagina_Portfolio';
 import Tecnologias from './Componentes/Componente_Tecnologias';
 import { Secao1, Secao2, Secao3 } from './Estilo/Estilo_Global';
+
 
 function App() {
   return (
@@ -29,7 +31,7 @@ function App() {
               <PaginaCurriculo />
             </Route>
             <Route path='/portfolio'>
-              <PaginaCurriculo />
+              <PaginaPortfolio />
             </Route>
             <Route path='/contato'>
               <PaginaContato />

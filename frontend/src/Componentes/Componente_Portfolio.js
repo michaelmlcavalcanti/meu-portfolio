@@ -2,5 +2,9 @@ import React from 'react'
 
 
 const Portfolio = function () {
-    return ("Ainda irei criar o portfolio")
+    return (
+        <div>Ainda irei criar o portfolio</div>
+    )
 }
+
+export default Portfolio
