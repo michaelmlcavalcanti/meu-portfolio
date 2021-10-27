@@ -10,6 +10,7 @@ const Menu = function () {
         <ul>
             <li><Link to='/'> Página Inicial</Link></li>
             <li><Link to='/curriculo'> Currículo</Link></li>
+            <li><Link to='/portfolio'> Portfólio</Link></li>
             <li><Link to='/contato'> Contato</Link></li>
         </ul>
     </EstiloMenu>

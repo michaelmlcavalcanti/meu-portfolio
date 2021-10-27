@@ -28,6 +28,9 @@ function App() {
             <Route path='/curriculo'>
               <PaginaCurriculo />
             </Route>
+            <Route path='/portfolio'>
+              <PaginaCurriculo />
+            </Route>
             <Route path='/contato'>
               <PaginaContato />
             </Route>
