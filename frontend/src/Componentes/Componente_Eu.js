@@ -11,9 +11,6 @@ const Eu = function () {
                 Sou um estudante de Engenharia da Computação na Escola Politécnica de Pernambuco, estou utilizando esse site para praticar os conceitos de um curso de FullStack realizado na plataforma Udemy, o curso é baseado em MERN (Mongo, Express, React e Node).
                 </p>
             </EstiloDescricao>
-            <EstiloImagem> 
-                <img src="https://i.imgur.com/nzxOy59.jpg"></img>
-            </EstiloImagem>
         </EstiloEu>
     )
 }

@@ -5,14 +5,27 @@ const Secao1 = styled.div`
 `;
 
 const Secao2 = styled.div`
+    display: flex;
     height: 70vh;
-    justify-content: center;
+    align-content: center;
 `;
 
 const Secao3 = styled.div`
+    display: flex;
+    height: 70vh;
+    width: 50%;
+`;
+
+const Secao4 = styled.div`
+    display: flex;
+    height: 70vh;
+    width: 50%;
+`;
+
+const Secao5 = styled.div`
     height: 15vh;
     background: #282828;
     display: flex;
     justify-content: center;
 `;
-export { Secao1, Secao2, Secao3};
+export { Secao1, Secao2, Secao3, Secao4, Secao5 };

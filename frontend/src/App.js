@@ -10,8 +10,8 @@ import PaginaContato from './Paginas/Pagina_Contato';
 import PaginaInicial from './Paginas/Pagina_Inicial';
 import PaginaPortfolio from './Paginas/Pagina_Portfolio';
 import Tecnologias from './Componentes/Componente_Tecnologias';
-import { Secao1, Secao2, Secao3 } from './Estilo/Estilo_Global';
-
+import Imagem from './Componentes/Componente_Imagem'
+import { Secao1, Secao2, Secao3, Secao4, Secao5 } from './Estilo/Estilo_Global';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Menu />
       </Secao1>
       <Secao2>
+      <Secao3>
         <Switch>
             <Route exact path='/'>
               <PaginaInicial />
@@ -37,10 +38,14 @@ function App() {
               <PaginaContato />
             </Route>
           </Switch>
-      </Secao2>
-      <Secao3>
-        <Tecnologias />
       </Secao3>
+      <Secao4>
+        <Imagem />
+      </Secao4>
+      </Secao2>
+      <Secao5>
+        <Tecnologias />
+      </Secao5>
     </div>
   );
 };
